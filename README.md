@@ -4,6 +4,18 @@ This project is operative on the meteo station of the institute ITIS Max Planck 
 <h3>Obbiettivi</h3>
 Tenere aggiornata la Stazione Meteo d'anno in anno pubblicando i dati sulle piú moderne piattaforme
 <h3>Punti da sviluppare</h3>
+<ol>
+  <li>
+    Un'interfaccia seriale per leggere dalla stazione.
+  </li>
+  <li>
+    un'interfaccia web per pubblicare i risultati.
+  </li>
+  <li>
+    un database.
+  </li>
+  
+</ol>
 ... [in scrittura]
 <h3>Contribuisci</h3>
 Non sai cosa portare come progetto d'esame ? vuoi migliorare la tua conoscenza di Java ? hai nuove idee per questo progetto ? Ecco come contribuire a questo progetto
@@ -20,6 +32,6 @@ Non sai cosa portare come progetto d'esame ? vuoi migliorare la tua conoscenza d
     Clona questa repository nel tuo git e carica lí i tuoi aggiornamenti
   <li>
   </li>
-<ol>
+</ol>
 <h3>Sviluppatori</h3>
-  2018 Bortot Michele "97 5Aii
+2018 Bortot Michele "97 5Aii <a href="mailto:miky97it@gmail.com?Subject=MeteoPlanck" target="_top">email</a>

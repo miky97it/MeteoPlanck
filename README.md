@@ -12,11 +12,22 @@ Tenere aggiornata la Stazione Meteo d'anno in anno pubblicando i dati sulle piú
     un'interfaccia web per pubblicare i risultati.
   </li>
   <li>
-    un database.
+    un database per contenere i dati.
+  </li>
+  <li>
+    un Bot per interfacciarsi con Messanger, Whatsapp e Telegram
+  </li>
+  <li>
+    Un sistema distribuito di stazioni meteo <a href="http://www.instructables.com/id/LoRaWan-Weather-Station/">Idea generale</a>, <a href="https://github.com/miky97it/Meteo/tree/master/Meteo">codice di Bortot Michele</a>, <a href="mailto:miky97it@gmail.com?Subject=MeteoPlanck" target="_top">piú info</a>
   </li>
   
+  <!--  
+  <li>
+    Inserisci qui punti che intendi sviluppare
+  </li>
+  -->
+
 </ol>
-... [in scrittura]
 <h3>Contribuisci</h3>
 Non sai cosa portare come progetto d'esame ? vuoi migliorare la tua conoscenza di Java ? hai nuove idee per questo progetto ? Ecco come contribuire a questo progetto
 <ol>
@@ -30,8 +41,9 @@ Non sai cosa portare come progetto d'esame ? vuoi migliorare la tua conoscenza d
     Connettiti con un portatile al rasperry via <a href="http://www.putty.org/">putty</a> o portatelo a casa e collegalo ad un monitor via HDMI
   </li>
     Clona questa repository nel tuo git e carica lí i tuoi aggiornamenti
-  <li>
   </li>
 </ol>
 <h3>Sviluppatori</h3>
 2018 Bortot Michele "97 5Aii <a href="mailto:miky97it@gmail.com?Subject=MeteoPlanck" target="_top">email</a>
+<!--metti qui il tuo nome -->
+

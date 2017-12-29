@@ -1,7 +1,8 @@
 package model;
 //add here the data types
-//add a constructr with all the elements
-//add here
+//add getters and setters 
 public class Data {
-	
+	Data(rawData){
+		//decompose data
+	}
 }

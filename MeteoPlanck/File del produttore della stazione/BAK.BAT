@@ -1,0 +1,2 @@
+copy \micros\????03.dat  \micros\2003
+copy \micros\????03.prn  \micros\2003 

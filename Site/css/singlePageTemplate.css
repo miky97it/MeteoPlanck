@@ -190,7 +190,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
+	background-image: url(../images/parallax.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -198,18 +198,14 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
+	text-align: center;
 	padding-top: 110px;
 	letter-spacing: 2px;
 	margin-top: 0px;
 }
 .parallax_description {
 	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
-	width: 30%;
-	float: right;
+	text-align: center;
 	font-weight: lighter;
 	line-height: 23px;
 	margin-top: 0px;
@@ -305,19 +301,13 @@ footer {
 	display: block;
 }
 .hide-nav {
-	display: none;
+	display: block;
 }
-	
 
 /* Mobile */
 @media (max-width: 320px) {
-	
-.logo {
-	margin-top: 5px;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	color: #043745;
+.hide-nav {
+	display: none;
 }
 .container header nav {
 	margin-top: 0px;
@@ -328,8 +318,13 @@ footer {
 	float: none;
 	display: none;
 }
-
-	
+.container {
+	width: 95%;
+}
+p {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -337,7 +332,7 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 }
-	nav li {
+nav li {
 	margin-bottom: 20px;
 }
 .text_column {
@@ -395,13 +390,19 @@ nav ul li {
 	line-height: 22px;
 	text-align: center;
 }
-p{
+p {
 	text-align: center !important;
 }
+	.about{
+		
+	}
 }
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
+.hide-nav {
+	display: none;
+}
 #menu-toggle {
 	height: 50px;
 	width: 50px;
@@ -428,7 +429,6 @@ header {
 #menu-toggle {
 	visibility: visible;
 }
-	
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -454,7 +454,6 @@ nav {
 	border-bottom: 1px solid;
 	text-align: center;
 	margin-right: 0px;
-	
 }
 nav li {
 	margin-bottom: 20px;
@@ -535,11 +534,13 @@ ul li {
 .footer_column {
 	width: 100%;
 }
-	
 }
 
 @media (max-width: 767px) {
-	#menu-toggle {
+.hide-nav {
+	display: none;
+}
+#menu-toggle {
 	height: 50px;
 	width: 50px;
 	display: inline-block;
@@ -553,6 +554,7 @@ ul li {
 }
 .logo {
 	margin-top: 5px;
+	margin-left: 10px;
 	height: 50px;
 	width: 50px;
 	text-align: center;
@@ -565,7 +567,6 @@ header {
 #menu-toggle {
 	visibility: visible;
 }
-	
 .container header nav {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -591,7 +592,6 @@ nav {
 	border-bottom: 1px solid;
 	text-align: center;
 	margin-right: 0px;
-	
 }
 nav li {
 	margin-bottom: 20px;
@@ -604,27 +604,31 @@ ul li {
 	text-align: center;
 }
 }
+
 /*small desktop*/
 @media (min-width: 768px) and (max-width: 1096px) {
-	.text_column {
-		width: 100%;
-	}
-	.thumbnail {
-		width: 50%;
-	}
-	.text_column {
-		width: 100%;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		padding-top: 0px;
-		padding-right: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-	}
-	.banner {
-		margin-top: 0px;
-		padding-top: 0px;
-	}
+.hide-nav {
+	display: block;
+}
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
 }

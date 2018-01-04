@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meteo Planck</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- video background-->
+<video loop muted autoplay class="fullscreen-bg__video">
+  <source src="videos/loopclouds.mp4" type="video/mp4">
+</video>
+
+<!-- Main Container --> 
+<!-- Navigation -->
+<header> <a href=""> <img src="images/icon.png" alt="" width="" height="" class="logo"/></a> 
+  <!-- phone/tablet menu' icon-->
+  <div id="menu-toggle" onclick="mobileMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <nav class="hide-nav" id="nav"> 
+    
+    <!-- PC menu'-->
+    <ul id="menu-list">
+      <li><a href="#about">API</a></li>
+      <li><a href="#contact">PARTECIPA</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="container"> 
+  
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h1 class="hero_header">Meteo Planck</h1>
+    <p class="tagline">Il meteo della tua scuola</p>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">1500</h1>
+      <h4>PRESSIONE</h4>
+      <p>in ettoPascal (hPa)</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">23</h1>
+      <h4>TEMPERATURA</h4>
+      <p>in gradi celsius (C°)</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">75</h1>
+      <h4>UMIDITA' RELATIVA</h4>
+      <p>in percentuale (%)</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">9870</h1>
+      <h4>TITLE</h4>
+      <p>One line description</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">API</h2>
+    <p class="parallax_description">É in sviluppo un sistema di API meteo. </p>
+    <div class="button">Ottieni</div>
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>aggiungi tutorial api</h3>
+      <img src="../MeteoPlanck/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+    <article class="footer_column">
+      <h3>altro</h3>
+      <img src="../MeteoPlanck/images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
+      <p>ricordati di trovare un modo per mandare il video da qualcosa che non sia il raspberry, una cosa tipo drive o simili che non pesi sulla banda</p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <p class="hero_header">PARTECIPA AL PROGETTO</p>
+    
+    <div class="button" onclick="window.location.href='https://github.com/miky97it/MeteoPlanck/'">git</div>
+</section>
+  <!-- Copyrights Section -->
+  <div class="copyright">2018 - <strong>Bortot michele</strong></div>
+</div>
+<!-- Main Container Ends --> 
+<!-- Script area--> 
+<script>
+function mobileMenu(x) {
+    x.classList.toggle("change");//the lines of menu
+	var x = document.getElementById("nav");
+    if (x.className === "show-nav") { //change the name, the css will adapt.
+        x.className = "hide-nav";
+    } else {
+        x.className = "show-nav";
+    }
+}
+</script> 
+<!-- End of Script area-->
+</body>
+</html>

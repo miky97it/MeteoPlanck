@@ -15,7 +15,13 @@ Tenere aggiornata la Stazione Meteo d'anno in anno pubblicando i dati sulle piú
     un database per contenere i dati.
   </li>
   <li>
+    un modo per tenere sempre vivi i processi essenziali del raspberry, eseguirli all'avvio e aggiornare il software clonado questa repository
+  </li>
+  <li>
     un Bot per interfacciarsi con Messanger, Whatsapp e Telegram
+  </li>
+  <li>
+    testare la sicurezza (ssh)
   </li>
   <li>
     Un sistema distribuito di stazioni meteo <a href="http://www.instructables.com/id/LoRaWan-Weather-Station/">Idea generale</a>, <a href="https://github.com/miky97it/Meteo/tree/master/Meteo">codice di Bortot Michele</a>, <a href="mailto:miky97it@gmail.com?Subject=MeteoPlanck" target="_top">piú info</a>

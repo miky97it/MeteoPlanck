@@ -3,6 +3,25 @@ This project is operative on the meteo station of the institute ITIS Max Planck 
 <h1>Stazione Meteo ITIS Max Planck </h1>
 <h3>Obbiettivi</h3>
 Tenere aggiornata la Stazione Meteo d'anno in anno pubblicando i dati sulle piú moderne piattaforme
+<h3>Funzionamento</h3>
+<ol>
+  <li>il sito (inserisci link pagina) é hostato su git.
+  </li>
+  <li>Una Raspberry esegue un sofware che:
+    <ol>
+      <li>Legge dalla stazione meteo analogica in Laboratorio di fisica i dati e gli salva in un database NoSQL MongoDB
+      </li>
+      <li>Risponde alle chiamate degli utenti (intermediate dal sito del Planck) sotto forma di API Json.
+      </li>
+      <li>Si auto aggiorna clonando questa repository
+      </li>
+      <li>Ha un sistema anti-crash.
+      </li>
+    </ol>
+  </li>
+  <li>Il sito del Planck fa da intermediario tra gli utenti e il raspberry prensentando le API (link)
+  </li>
+</ol>
 <h3>Punti da sviluppare</h3>
 <ol>
   <li>

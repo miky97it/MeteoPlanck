@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="DataSaver/src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="F:/Tutti i file/Git/progettiScaricati/lib/jna-4.0.0.jar"/>
+	<classpathentry kind="lib" path="jna-4.0.0.jar"/>
 	<classpathentry kind="output" path="DataSaver/bin"/>
 </classpath>

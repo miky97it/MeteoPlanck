@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>pjha</name>
-			<type>2</type>
-			<location>F:/Tutti i file/Git/progettiScaricati/src</location>
-		</link>
-	</linkedResources>
 </projectDescription>

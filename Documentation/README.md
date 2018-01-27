@@ -1,5 +1,7 @@
-# Tutorial
-<h3>Accedere alla raspberry</h3>
+# Tutorial Stazione Meteo ITIS Max Planck - Laboratorio Fisica
+Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se non é completo il file ora come ora
+
+<h3>Come accedere alla raspberry</h3>
 <ol>
    <li>
     Avvisa il tuo professore di informatica o sistemi (se non sanno che pesci pigliare rivolgiti a quelli di un'altra sezione).
@@ -16,8 +18,15 @@
     
   </li>
  </ol>
-<h1>Stazione Meteo ITIS Max Planck </h1><br>
-Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se non é completo il file ora come ora
+<br>
+
+<h3>Come leggere dati dalla stazione</h3>
+   - ##### Windows
+      1.
+      2.installa un terminale seriale (io ho usato [terminal com] (https://sites.google.com/site/terminalbpp/)) 
+      3.
+      4.
+   - ##### Raspbian
 <h3>Installazione su nuova raspberry</h3>
 <ol>
   <li><a href="https://www.raspberrypi.org/downloads/">Sceli un OS</a> da installare sul raspberry, (io ho installato rasbian)
@@ -35,6 +44,7 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
   <li>
   </li>
 </ol>
+
 <h3>Configurazione</h3>
 <ol>
   <li> Il Software é configurabile attraverso il file config.txt nella cartella src
@@ -43,6 +53,7 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
   <li> DETTAGLI
   </li>
 </ol>
+
 <h3>Idee per cose da sviluppare che puoi aggiungere</h3>
 <ol>
   <li> Un'interfaccia seriale per leggere dalla stazione. </li>
@@ -59,6 +70,7 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
   -->
   
 </ol>
+
 <h3>Contribuisci</h3>
 Non sai cosa portare come progetto d'esame ? vuoi migliorare la tua conoscenza di Java ? hai nuove idee per questo progetto ? Ecco come contribuire a questo progetto
 <ol>

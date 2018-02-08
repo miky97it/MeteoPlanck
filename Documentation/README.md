@@ -21,7 +21,7 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
 <br>
 
 <h3>Come leggere dati dalla stazione</h3>
-   -<h4>Windows</h4>
+   <h4>Windows</h4>
       <ol>
          <li>
             Connetti il connettore usb(adattatore a seriale) al computer.
@@ -30,7 +30,7 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
          </li><li>
             seleziona la porta giusta e comincia a leggere il flusso
           </li></ol>
-   - <h4>Raspbian</h4>
+   <h4>Raspbian</h4>
       <ol>
          <li>
            Connetti il connettore usb(adattatore a seriale) ad una porta del raspberry.
@@ -75,7 +75,8 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
   <li>
   </li>
 </ol>
-
+<h3>Note</h3>
+   Leggere dati da usb é complesso, inizialmente avevo optato e sviluppato PureJavaHidApi in java ma per per ma dei conflitti con la libreria JNA sono stato obbligato a cambiare strada e a dirigermi sull molto piú comune pyserial scritto in python.
 <h3>Configurazione</h3>
 <ol>
   <li> Il Software é configurabile attraverso il file config.txt nella cartella src

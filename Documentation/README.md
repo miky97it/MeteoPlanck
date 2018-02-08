@@ -21,12 +21,23 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
 <br>
 
 <h3>Come leggere dati dalla stazione</h3>
-   - ##### Windows
-      1.
-      2.installa un terminale seriale (io ho usato [terminal com] (https://sites.google.com/site/terminalbpp/)) 
-      3.
-      4.
-   - ##### Raspbian
+   -<h4>Windows</h4>
+      <ol>
+         <li>
+            Connetti il connettore usb(adattatore a seriale) al computer.
+         </li><li>
+            installa un terminale seriale (io ho usato [terminal com] (https://sites.google.com/site/terminalbpp/)) 
+         </li><li>
+            seleziona la porta giusta e comincia a leggere il flusso
+          </li></ol>
+   - <h4>Raspbian</h4>
+      <ol><li>
+         
+   </li><li>
+   </li><li>
+   </li><li></li>
+   </ol>
+   dmesg | grep tty
 <h3>Installazione su nuova raspberry</h3>
 <ol>
   <li><a href="https://www.raspberrypi.org/downloads/">Sceli un OS</a> da installare sul raspberry, (io ho installato rasbian)

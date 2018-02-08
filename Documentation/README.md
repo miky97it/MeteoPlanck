@@ -31,13 +31,33 @@ Bortot Michele: Le scritte in MAIUSCOLO sono bozze da estendere, mi dispiace se 
             seleziona la porta giusta e comincia a leggere il flusso
           </li></ol>
    - <h4>Raspbian</h4>
-      <ol><li>
-         
-   </li><li>
-   </li><li>
+      <ol>
+         <li>
+           Connetti il connettore usb(adattatore a seriale) ad una porta del raspberry.
+   </li><li> digita nel terminale <code>dmesg | grep tty</code>
+   </li><li> dovresti riceve come risposta <code>[    5.505049] usb 1-1.2: pl2303 converter now attached to ttyUSB0
+</code>, ttyUSB0 é la porta dove hai collegato il convertitore usb-seriale.
    </li><li></li>
    </ol>
-   dmesg | grep tty
+  <h3>Esemipio di dati</h3>
+      <code>
+      PROG. N.40 ORE 15 :58 :2 DEL 8 /2 /18 
+      SAT. N. 1 
+      SONDA N. 1.01: 8.4 GC 
+      SONDA N. 2.01: 31 UR% 
+      SONDA N. 2.02: 1004 HPA 
+      SONDA N. 2.03: 72.7 W/M2 
+      SONDA N. 2.04: 0 GN 
+      SONDA N. 3.01: 0 M/SEC 
+      SONDA N. 3.02: 0 MMH2O 
+      SONDA N. 1.05: 2.8 GC 
+      SONDA N. 1.09: 8.9 GC 
+      SONDA N. 2.05: 10 UR% 
+      SONDA N. 2.09: 64 UR% 
+      SONDA N. 2.06: 997 HPA 
+      SONDA N. 2.10: 1004 HPA 
+      FINE PROGR.40 
+      </code>
 <h3>Installazione su nuova raspberry</h3>
 <ol>
   <li><a href="https://www.raspberrypi.org/downloads/">Sceli un OS</a> da installare sul raspberry, (io ho installato rasbian)

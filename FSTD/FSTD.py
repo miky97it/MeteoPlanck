@@ -1,6 +1,12 @@
 import time
 import serial
+import pymongo
 from bson.son import SON
+from pymongo import MongoClient
+
+client = MongoClient()##on defeult localhost 
+db = client.testdb
+collection = db.test_collection ##collections are like tables in SQL
 # configure the serial connections (the parameters differs on the device you are connecting to)
 ser = serial.Serial(
     port='/dev/ttyUSB0',
@@ -19,7 +25,7 @@ def storer(message):
 # Subdocument key order matters in a few of these examples so we have
 # to use bson.son.SON instead of a Python dict.
 def insert():
-    db.test.insert_many([
+    db.collection.insert_many([
     {"item": "journal",
      "qty": 25,
      "size": SON([("h", 14), ("w", 21), ("uom", "cm")]),

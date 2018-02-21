@@ -1,6 +1,6 @@
 import time
 import serial
-
+from bson.son import SON
 # configure the serial connections (the parameters differs on the device you are connecting to)
 ser = serial.Serial(
     port='/dev/ttyUSB0',
@@ -13,7 +13,34 @@ endString="FINE PROGR.40 "
 buffer=''
 debug=True
 
-
+def storer(message):
+    print "saving"
+    insert()
+# Subdocument key order matters in a few of these examples so we have
+# to use bson.son.SON instead of a Python dict.
+def insert():
+    db.test.insert_many([
+    {"item": "journal",
+     "qty": 25,
+     "size": SON([("h", 14), ("w", 21), ("uom", "cm")]),
+     "status": "A"},
+    {"item": "notebook",
+     "qty": 50,
+     "size": SON([("h", 8.5), ("w", 11), ("uom", "in")]),
+     "status": "A"},
+    {"item": "paper",
+     "qty": 100,
+     "size": SON([("h", 8.5), ("w", 11), ("uom", "in")]),
+     "status": "D"},
+    {"item": "planner",
+     "qty": 75,
+     "size": SON([("h", 22.85), ("w", 30), ("uom", "cm")]),
+     "status": "D"},
+    {"item": "postcard",
+     "qty": 45,
+     "size": SON([("h", 10), ("w", 15.25), ("uom", "cm")]),
+     "status": "A"}])
+    
 while 1 :
     out = ''
     while ser.inWaiting() > 0:
@@ -25,8 +52,9 @@ while 1 :
             print ">>" + out
         ##for in range(0, len(buffer)-offset):
         if endString in buffer:
-            ##storer(buffer)
-            print "->" + out
+            storer(buffer)
+            if debug:
+                print "->" + out
             buffer=''
 
 

@@ -15,7 +15,7 @@ Tenere aggiornata la Stazione Meteo d'anno in anno pubblicando i dati sulle piú
     un database per contenere i dati.
   </li>
   <li>
-    un modo per tenere sempre vivi i processi essenziali del raspberry, eseguirli all'avvio e aggiornare il software clonado questa repository (script?)
+    un modo per tenere sempre vivi i processi essenziali del raspberry, eseguirli all'avvio <del>e aggiornare il software clonado questa repository (script?) </del>
   </li>
   <li>
     aggiungere un file di configurazione

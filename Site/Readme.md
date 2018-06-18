@@ -1,6 +1,6 @@
 <html>
 <head></head>
 <body> 
-  <h1 href="htmlpreview.github.io/?https://github.com/miky97it/MeteoPlanck/blob/master/Site/home.html"> Click here to see the site </h1>
+  <h1><a href="htmlpreview.github.io/?https://github.com/miky97it/MeteoPlanck/blob/master/Site/home.html"> Click here to see the site </a></h1>
 </body>
 </html>
